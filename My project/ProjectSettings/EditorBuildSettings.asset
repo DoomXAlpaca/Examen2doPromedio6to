@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ganar.unity
     guid: ab855cc2f40a73d488033d084fefb2bb
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 6fa3ab033cb583c488e372ec5caa1a84
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 8f7ac97508ead3d47a9dff4d52489d6a
   m_configObjects: {}
