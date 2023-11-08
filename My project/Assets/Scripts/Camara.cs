@@ -10,7 +10,7 @@ public class Camara : MonoBehaviour
     {
         if (target == null)
             return;
-
+            
         // Calcular la posicion de la camara
         Vector3 desiredPosition = target.position + offset;
 
