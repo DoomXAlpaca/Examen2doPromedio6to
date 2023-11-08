@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        moveSpeed = (moveSpeed + (0.1f*Time.deltaTime));
+
         transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.O))

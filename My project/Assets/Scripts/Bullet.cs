@@ -16,6 +16,6 @@ public class Bullet : MonoBehaviour
         Vector3 bulletVelocity = new Vector3(bulletSpeed, 0, 0);
         bulletRigidbody.velocity = bulletVelocity;
 
-        Destroy(gameObject, 3.0f); 
+        Destroy(gameObject, 1.0f); 
     }
 }
