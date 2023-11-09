@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         playerRigidbody = GetComponent < Rigidbody >();
-        playerRigidbody = GetComponent < Rigidbody >();
     }
 
     void Update()
